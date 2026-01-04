@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amber Nemarumane | Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                        sans: ['"Inter"', 'sans-serif'],
+                    },
+                    colors: {
+                        cyber: {
+                            black: '#0a0a0a',
+                            dark: '#111827',
+                            slate: '#1e293b',
+                            green: '#10b981', // Emerald 500
+                            greenDim: 'rgba(16, 185, 129, 0.1)',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body { background-color: #020617; color: #e2e8f0; }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+        }
+        .neon-text {
+            text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-emerald-500 selection:text-black">
+
+    <nav class="hidden lg:flex flex-col fixed left-8 top-1/2 -translate-y-1/2 gap-6 z-50">
+        <div class="glass-panel p-4 rounded-full flex flex-col gap-6 items-center">
+            <a href="tel:+27815550340" class="text-slate-400 hover:text-emerald-400 hover:scale-110 transition-all" title="Call Me">
+                <i data-lucide="phone"></i>
+            </a>
+            <a href="https://wa.me/27815550340" class="text-slate-400 hover:text-emerald-400 hover:scale-110 transition-all" title="WhatsApp">
+                <i data-lucide="message-circle"></i>
+            </a>
+            <a href="mailto:ambermanyanye@gmail.com" class="text-slate-400 hover:text-emerald-400 hover:scale-110 transition-all" title="Email Me">
+                <i data-lucide="mail"></i>
+            </a>
+            <a href="https://github.com/Amber-20" target="_blank" class="text-slate-400 hover:text-emerald-400 hover:scale-110 transition-all" title="GitHub">
+                <i data-lucide="github"></i>
+            </a>
+        </div>
+        <div class="h-24 w-px bg-gradient-to-b from-emerald-500/50 to-transparent mx-auto"></div>
+    </nav>
+
+    <main class="container mx-auto px-6 lg:pl-40 py-20 max-w-6xl">
+            
+<header class="mb-24 animate-fade-in-up">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-900/20 border border-emerald-500/30 text-emerald-400 text-xs font-mono mb-6">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight font-sans">
+                Amber <span class="text-emerald-400 neon-text">Nemarumane</span>
+            </h1>
+            
+            <h2 class="text-xl md:text-2xl font-mono text-slate-400 mb-8 border-l-4 border-emerald-500 pl-4">
+                Cybersecurity Student
+            </h2>
+
+            <p class="text-lg text-slate-400 max-w-2xl leading-relaxed mb-10">
+                Dedicated cybersecurity student specializing in investigating cybercrimes and analyzing digital evidence. 
+                I combine technical knowledge of tools like 
+                <span class="text-emerald-300">Autopsy</span> and <span class="text-emerald-300">Wireshark</span> 
+                with a proficiency in legal terminology to mitigate risks and protect networks.
+            </p>
+
+            <div class="flex flex-wrap gap-4">
+                <a href="mailto:ambermanyanye@gmail.com" class="bg-emerald-600 hover:bg-emerald-500 text-black font-bold py-3 px-8 rounded-lg transition-all flex items-center gap-2 group">
+                    <i data-lucide="mail" class="w-4 h-4"></i> Contact Me
+                </a>
+                <a href="#projects" class="glass-panel text-white hover:border-emerald-500/50 py-3 px-8 rounded-lg transition-all flex items-center gap-2">
+                    <i data-lucide="folder-search" class="w-4 h-4"></i> View Cases
+                </a>
+            </div>
+        </header>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-24">
+            <div class="glass-panel p-8 rounded-2xl relative overflow-hidden group">
+                <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <i data-lucide="shield-check" class="w-24 h-24 text-emerald-500"></i>
+                </div>
+                <h3 class="text-emerald-400 font-mono text-sm uppercase tracking-widest mb-2">Certification</h3>
+                <h4 class="text-2xl font-bold text-white mb-1">CompTIA Security+</h4>
+                <p class="text-slate-500 text-sm">Completed: December 2025</p>
+            </div>
+
+            <div class="glass-panel p-8 rounded-2xl relative overflow-hidden group">
+                <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <i data-lucide="graduation-cap" class="w-24 h-24 text-blue-500"></i>
+                </div>
+                <h3 class="text-blue-400 font-mono text-sm uppercase tracking-widest mb-2">Education</h3>
+                <h4 class="text-2xl font-bold text-white mb-1">Higher Certificate in Cybersecurity</h4>
+                <p class="text-slate-400 mb-1">Eduvos (Pty) Ltd</p>
+                <p class="text-slate-500 text-sm">Feb 2025 - Dec 2025</p>
+            </div>
+        </section>
+
+        <section class="mb-24">
+            <div class="flex items-center gap-4 mb-10">
+                <i data-lucide="terminal" class="text-emerald-500 w-8 h-8"></i>
+                <h2 class="text-3xl font-bold text-white">Technical Arsenal</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="glass-panel p-6 rounded-xl border-t-4 border-t-emerald-500">
+                    <h3 class="text-white font-bold mb-4 flex items-center gap-2">
+                        <i data-lucide="wrench" class="w-4 h-4 text-emerald-400"></i> Forensic Tools
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-slate-800 text-xs text-emerald-300 rounded border border-slate-700">Autopsy</span>
+                        <span class="px-2 py-1 bg-slate-800 text-xs text-emerald-300 rounded border border-slate-700">EnCase</span>
+                        <span class="px-2 py-1 bg-slate-800 text-xs text-emerald-300 rounded border border-slate-700">FTK Imager</span>
+                        <span class="px-2 py-1 bg-slate-800 text-xs text-emerald-300 rounded border border-slate-700">Wireshark</span>
+                        <span class="px-2 py-1 bg-slate-800 text-xs text-emerald-300 rounded border border-slate-700">Volatility</span>
+                        <span class="px-2 py-1 bg-slate-800 text-xs text-emerald-300 rounded border border-slate-700">WinHex</span>
+                        <span class="px-2 py-1 bg-slate-800 text-xs text-emerald-300 rounded border border-slate-700">StegSpy</span>
+                        <span class="px-2 py-1 bg-slate-800 text-xs text-emerald-300 rounded border border-slate-700">Sleuth Kit</span>
+                    </div>
+                </div>
+
+                <div class="glass-panel p-6 rounded-xl border-t-4 border-t-blue-500">
+                    <h3 class="text-white font-bold mb-4 flex items-center gap-2">
+                        <i data-lucide="server" class="w-4 h-4 text-blue-400"></i> OS & Virtualization
+                    </h3>
+                    <ul class="text-slate-400 text-sm space-y-2 font-mono">
+                        <li>> Kali Linux / Ubuntu</li>
+                        <li>> Windows Server</li>
+                        <li>> VirtualBox</li>
+                        <li>> VMWare</li>
+                        <li>> Windows Containers</li>
+                    </ul>
+                </div>
+
+                <div class="glass-panel p-6 rounded-xl border-t-4 border-t-purple-500">
+                    <h3 class="text-white font-bold mb-4 flex items-center gap-2">
+                        <i data-lucide="book-open" class="w-4 h-4 text-purple-400"></i> Frameworks
+                    </h3>
+                    <ul class="text-slate-400 text-sm space-y-2 font-mono">
+                        <li>> NIST CFTK</li>
+                        <li>> DFIPM (Investigation Process Model)</li>
+                        <li>> OSDF (Open-Source Framework)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-20">
+            <h2 class="text-3xl font-bold text-white mb-10 flex items-center gap-3">
+                <i data-lucide="file-search" class="text-emerald-500"></i> Github Projects
+            </h2>
+
+            <div class="space-y-8">
+                
+                <div class="glass-panel p-8 rounded-2xl hover:border-emerald-500/30 transition-all group">
+                    <div class="flex flex-col md:flex-row justify-between md:items-start gap-4 mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">File Integrity Assessment</h3>
+                            <p class="text-slate-500 text-sm font-mono mt-1">Hash Verification & Authenticity</p>
+                        </div>
+                        <span class="px-3 py-1 rounded-full bg-emerald-900/30 text-emerald-400 text-xs font-mono border border-emerald-500/20">MD5 / SHA-256</span>
+                    </div>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        Performed a comprehensive integrity check on diverse file types (documents, images, executables). Systematically evaluated the impact of file modifications on hash values to demonstrate effective integrity verification techniques.
+                    </p>
+                    <div class="flex items-center gap-4 border-t border-slate-800 pt-4">
+                        <a href="https://github.com/Amber-20/File-Integrity-Assessment" class="text-sm font-bold text-emerald-500 flex items-center gap-2 hover:underline">
+                            View on GitHub <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="glass-panel p-8 rounded-2xl hover:border-emerald-500/30 transition-all group">
+                    <div class="flex flex-col md:flex-row justify-between md:items-start gap-4 mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">Disk Image Forensic Analysis</h3>
+                            <p class="text-slate-500 text-sm font-mono mt-1">Artifact Extraction & Data Recovery</p>
+                        </div>
+                        <span class="px-3 py-1 rounded-full bg-blue-900/30 text-blue-400 text-xs font-mono border border-blue-500/20">FTK Imager / Autopsy</span>
+                    </div>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        Executed an in-depth forensic analysis of a computer disk image. Successfully extracted critical artifacts including 
+                        <span class="text-white font-mono bg-slate-800 px-1 rounded">emails</span>, 
+                        <span class="text-white font-mono bg-slate-800 px-1 rounded">credit card numbers</span>, and 
+                        <span class="text-white font-mono bg-slate-800 px-1 rounded">URLs</span>. 
+                        Evaluated tool limitations regarding hidden data.
+                    </p>
+                    <div class="flex items-center gap-4 border-t border-slate-800 pt-4">
+                        <a href="https://github.com/Amber-20/Disk-Image-Forensic-Analysis" class="text-sm font-bold text-blue-400 flex items-center gap-2 hover:underline">
+                            View on GitHub <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="glass-panel p-8 rounded-2xl hover:border-emerald-500/30 transition-all group">
+                    <div class="flex flex-col md:flex-row justify-between md:items-start gap-4 mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">Comparative Tools Research</h3>
+                            <p class="text-slate-500 text-sm font-mono mt-1">Tool Efficiency Analysis</p>
+                        </div>
+                        <span class="px-3 py-1 rounded-full bg-purple-900/30 text-purple-400 text-xs font-mono border border-purple-500/20">Research / Methodology</span>
+                    </div>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        Conducted a comprehensive analysis of various digital forensic tools, assessing their adaptability across different investigative scenarios to aid in strategic tool selection for complex investigations.
+                    </p>
+                    <div class="flex items-center gap-4 border-t border-slate-800 pt-4">
+                        <a href="https://github.com/Amber-20/Comparative-Digital-Forensics-Tools-Research" class="text-sm font-bold text-purple-400 flex items-center gap-2 hover:underline">
+                            View on GitHub <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="lg:hidden fixed bottom-0 left-0 right-0 bg-slate-900/90 backdrop-blur-md border-t border-slate-800 p-4 z-50">
+        <div class="flex justify-around items-center">
+            <a href="tel:+27815550340" class="text-slate-400 hover:text-emerald-400 flex flex-col items-center gap-1">
+                <i data-lucide="phone" class="w-5 h-5"></i>
+                <span class="text-[10px]">Call</span>
+            </a>
+            <a href="https://wa.me/27815550340" class="text-slate-400 hover:text-emerald-400 flex flex-col items-center gap-1">
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                <span class="text-[10px]">Chat</span>
+            </a>
+            <a href="mailto:ambermanyanye@gmail.com" class="text-slate-400 hover:text-emerald-400 flex flex-col items-center gap-1">
+                <i data-lucide="mail" class="w-5 h-5"></i>
+                <span class="text-[10px]">Email</span>
+            </a>
+            <a href="https://github.com/Amber-20" class="text-slate-400 hover:text-emerald-400 flex flex-col items-center gap-1">
+                <i data-lucide="github" class="w-5 h-5"></i>
+                <span class="text-[10px]">Code</span>
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
